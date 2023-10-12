@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(255, 238, 203, 0.972),rgba(255, 255, 255, 0.525)), url('./images/gggd.jpeg');
+}
+
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+.profile img {
+    width: 13rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 24px;
+}
+
+.profile p {
+    font-size: 18px;
+}
+
+.profile-info {
+    display: none;
+    padding: 0 1rem;
+    background-color:rgb(248, 244, 244);
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: aliceblue;
+    background-color: rgb(10, 20, 32);
+}
+
+.displa{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.displa h2{
+    margin: 2rem 1rem;
+}
+.displa:hover{
+    background-color:#eff1fa
+}
+
+.infoo{
+    display: flex;
+    flex-direction: column;
+}
+.Experience {
+    display: none;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color:rgb(252, 254, 255);
+}
+
+.obj{
+    text-align: center;
+    margin: 2rem;
+}
+
+.skills{
+    margin: 2rem;
+
+}
+span{
+    position: relative;
+    background-color:#d7f0ff;
+    padding: 0.5rem;
+    justify-content: space-between;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
